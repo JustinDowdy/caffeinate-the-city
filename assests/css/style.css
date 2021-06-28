@@ -143,3 +143,29 @@ input[type='submit']:hover {
         max-width: 100%;
     }
 }
+
+.p1 {
+    font-size: large;
+}
+
+#arrayTest2 {
+    border: #ebdb83;
+    font-size: larger;
+
+}
+
+#reviewsTitle {
+    font-size: xx-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#userEntryBox {
+    background-color: rgb(68, 44, 9);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
