@@ -1,76 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
-    <meta http-equiv=“X-UA-Compatible” content=“IE=edge,chrome=1">
-     <meta name=“HandheldFriendly” content=“true”>
-    <link rel=“stylesheet” type=“text/css” href=“https://js.api.here.com/v3/3.1/mapsjs-ui.css” />
-    <link rel=“stylesheet” href=“https://bulma.io”>
-    <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css”>
-    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css” integrity=“sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==” crossorigin=“anonymous” referrerpolicy=“no-referrer” />
-    <link rel=“stylesheet” href=“assests/css/style.css”>
-    <script type=“text/javascript” src=“https://js.api.here.com/v3/3.1/mapsjs-core.js”></script>
-    <script type=“text/javascript” src=“https://js.api.here.com/v3/3.1/mapsjs-service.js”></script>
-    <script type=“text/javascript” src=“https://js.api.here.com/v3/3.1/mapsjs-ui.js”></script>
-    <script type=“text/javascript” src=“https://js.api.here.com/v3/3.1/mapsjs-mapevents.js”></script>
-</head>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+       <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" href="https://bulma.io">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assests/css/style.css">
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+      <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+  </head>
+
 <body>
-    <div class=“bg-img”>
-        <nav class=“navbar” role=“navigation” aria-label=“main navigation”>
-            <div class=“navbar-start topnav”>
-                <a href=“index.html” class=“navbar-item”>Home</a>
-                <a href=“reviews.html”>Reviews</a>
-                <a href=“contactus.html” class=“navbar-item”>Contact Us</a>
+    <div class="bg-img">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-start topnav">
+                <a href="index.html" class="navbar-item">Home</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="contactus.html" class="navbar-item">Contact Us</a>
             </div>
         </nav>
     </div>
-        <header id=“reviewsTitle”>MY OPINION</header>
-                <form id=“userEntryBox”>
+        <header id="reviewsTitle">MY OPINIONS</header>
+                <form id="userEntryBox">
                 <br>
-                <label for=“shop-name”>Coffee Shop:</label>
-                <input type=“text” id=“shop-name”/>
-                <label for=“NTS”>Note-to-self: </label>
-                <input type=“text” id=“NTS”/>
-                <label for=“stars”>Rating: 1 - 5</label>
-                <input type=“text” id=“stars”/>
-            </form>
+                <label for="shop-name">Coffee Shop:</label>
+                <input type="text" id="shop-name"/>
+                <label for="NTS">My Notes: </label>
+                <input type="text" id="NTS"/>
+                <label for="stars">How many stars do you give this shop?</label>
+                <input type="text" id="stars"/>
+                </form>
        <br>
-       <input onclick=getUserValues() type=“submit” value=“Submit”>
+       <input onclick=getUserValues() type="submit" value="Submit">
        <br>
-       <p id=“shop-name”></p>
-       <p>Coffee Shops:</p>
-       <p id=“arrayTest”></p>
-       <p1 id=“arrayTest2"> MY NOTES: <br> </p1>
-       <div class=“card”>
-           <header class=“card-header”>
-             <p class=“card-header-title”>
-               Component
-             </p>
-             <button class=“card-header-icon” aria-label=“more options”>
-               <span class=“icon”>
-                 <i class=“fas fa-angle-down” aria-hidden=“true”></i>
-               </span>
-             </button>
+       <p id="shop-name"></p>
+       <p id="arrayTest"></p>
+       <p1 id="arrayTest2">  <br> </p1>
+       <!-- CARD -->
+       <!-- <div class="card">
+           <header class="card-header">
+             <p id="shop-name" class="card-header-title"></p>
+             <button class="card-header-icon" aria-label="more options">
+                DROP DOWN ARROW OPTIONAL <span class="icon">
+                 <i class="fas fa-angle-down" aria-hidden="true"></i>
+               </span> -->
+             <!-- </button>
            </header>
-           <div class=“card-content”>
-             <div class=“content”>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-               <a href=“#”>@bulmaio</a>. <a href=“#”>#css</a> <a href=“#”>#responsive</a>
+           <div class="card-content">
+             <div class="content">
+               <a href="#"></a> <a href="#"></a> <a href="#"></a>
                <br>
-               <time datetime=“2016-1-1">11:09 PM - 1 Jan 2016</time>
+               <time datetime="2016-1-1"></time>
              </div>
-           </div>
-           <footer class=“card-footer”>
-             <a href=“#” class=“card-footer-item”>Save</a>
-             <a href=“#” class=“card-footer-item”>Edit</a>
-             <a href=“#” class=“card-footer-item”>Delete</a>
-           </footer>
-         </div>
-   <div class=“footer”>
+           </div> -->
+           <!-- OPTIONAL FOOTER <footer class="card-footer">
+             <a href="#" class="card-footer-item">Save</a>
+             <a href="#" class="card-footer-item">Edit</a>
+             <a href="#" class="card-footer-item">Delete</a>
+           </footer> -->
+         <!-- </div>
+         <div class = "cardAppend"></div>  -->
+   <div class="footer">
        <p> &#169; 2021 Geoffrey, Jason, Justin, and Noor. &#169;Header image Dmitry Kostyukov for The New York Times </p>
    </div>
-   <script src=“https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js” integrity=“sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==” crossorigin=“anonymous” referrerpolicy=“no-referrer”></script>
-   <script src=“assests/js/script.js”></script>
-   <script src=“assests/js/reviews.js”></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="assests/js/script.js"></script>
+   <script src="assests/js/reviews.js"></script>
 </body>
 </html>
