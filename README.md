@@ -23,11 +23,7 @@ https://developer.here.com/documentation/maps/3.1.25.0/dev_guide/index.html
 HERE Geocoding
 https://developer.here.com/documentation/routing/dev_guide/topics/introduction.html
 Role Responsibilities:
-Styling (base HTML/CSS)
-Noor Alhomsi
-JavaScript/APIs/jQuery HTML/CSS injection
-Geoffrey Wein
-Reviews Page
-Justin Dowdy
-Contact Page
-Jason Gentel
+- Styling (base HTML/CSS) Noor Alhomsi
+- JavaScript/APIs/jQuery HTML/CSS injection Geoffrey Wein
+- Reviews Page Justin Dowdy
+- Contact Page Jason Gentel
