@@ -25,5 +25,5 @@ https://developer.here.com/documentation/routing/dev_guide/topics/introduction.h
 Role Responsibilities:
 - Styling (base HTML/CSS) Noor Alhomsi
 - JavaScript/APIs/jQuery HTML/CSS injection Geoffrey Wein
-- Reviews Page Justin Dowdy
+- JavaScript HTML/CSS Reviews Page Justin Dowdy
 - Contact Page Jason Gentel
