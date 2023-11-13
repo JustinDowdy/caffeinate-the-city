@@ -2,22 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: #e4dcd1;
-    background-image: url('images/oldgrain.jpg');
+    background-image: url('../../oldgrain.jpg');
 }
 * {
     box-sizing: border-box;
-}
-.bg-img {
-    min-height: 315px;
-    background-image: url('../../caffeinatethecity.png');
-    border: 5px solid rgb(68, 44, 9);
-    border-radius: 15px;
-    border-bottom: 15px solid rgb(36, 23, 5);
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Needed to position the navbar */
 }
 
 .bg-img1 {
